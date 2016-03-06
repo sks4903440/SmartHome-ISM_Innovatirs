@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ArduISM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="sensiblecharging_1">Critical State(Default)</string>
+    <string name="sensiblecharging_2">User Defined</string>
+    <string name="sensiblecharging_3">Battery will stop charging if</string>
+    <string name="sensiblecharging_4">Battery will start charging if</string>
+
+</resources>
