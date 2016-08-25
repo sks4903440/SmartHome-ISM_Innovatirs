@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:checked="true"
+        android:textOff="Sensible Charging Off"
+        android:textOn="Sensible Charging On work" />
+
+
+    <TextView
+        android:id="@+id/scontext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/sensiblecharging_3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#336600" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/scradiobtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#000077"
+            android:checked="true"
+            android:text="@string/sensiblecharging_1"
+
+            />
+
+        <RadioButton
+            android:id="@+id/scradiobtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/sensiblecharging_2" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/sconedittext"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:inputType="number"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/sconbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#66CCCC"
+            android:text="OK"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/scofftext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/sensiblecharging_4"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#336600" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/scradiobtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#000077"
+            android:checked="true"
+            android:text="@string/sensiblecharging_1" />
+
+        <RadioButton
+            android:id="@+id/scradiobtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sensiblecharging_2" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/scoffedittext"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:inputType="number"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/scoffbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#66CCCC"
+            android:text="OK"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+
+</LinearLayout>
